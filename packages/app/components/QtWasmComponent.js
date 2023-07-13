@@ -37,10 +37,8 @@ export default function QtWasmComponent({ props }) {
 
   return (
     <div>
-      <div id="screen" style={{ width: 100, height: 100 }}></div>
-      <button title="Update number" onClick={updateNumber}>
-        Update
-      </button>
+      <div id="screen" style={{ width: "100%", height: 100 }}></div>
+      <button onClick={updateNumber}>Click on this React Button</button>
     </div>
   );
 }

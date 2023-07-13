@@ -1,6 +1,8 @@
 Qt WASM and Next.js integration example
 =======================================
 
+![Application Demo](./docs/qt-and-react.png)
+
 This repository contains an example Qt/WASM project embedded in a Next.js application.
 
 ### Requirements

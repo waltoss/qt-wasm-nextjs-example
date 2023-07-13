@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
 
-    label = new QLabel("Number: 0");
+    label = new QLabel("I am a Qt QLabel. You clicked 0 times");
     label->show();
 
     return app.exec();
@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 void updateLabel(int number)
 {
-    label->setText("Number: " + QString::number(number));
+    label->setText("I am a Qt QLabel. You clicked " + QString::number(number) + " times");
 }
 
 EMSCRIPTEN_BINDINGS(my_module)
