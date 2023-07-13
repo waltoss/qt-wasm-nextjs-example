@@ -1,0 +1,4 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/packages/qt-wasm-component",
+  "cmake.buildDirectory": "${workspaceFolder}/packages/qt-wasm-component/build"
+}

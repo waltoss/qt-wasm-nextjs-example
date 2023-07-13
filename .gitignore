@@ -1,0 +1,5 @@
+packages/app/node_modules
+packages/app/.next/
+.DS_Store
+
+packages/qt-wasm-component/build

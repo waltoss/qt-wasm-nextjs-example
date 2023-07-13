@@ -1,0 +1,6 @@
+[
+  {
+    "name": "Qt",
+    "toolchainFile": "${env:QTDIR}/lib/cmake/Qt6/qt.toolchain.cmake"
+  }
+]
